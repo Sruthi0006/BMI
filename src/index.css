@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}
+
+
+.card {
+
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 6px 30px rgba(6, 127, 179, 0.138);
+    border-radius: 20px;
+    padding: 35px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.card h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    margin-top: 6px;
+    background: rgba(255, 255, 255, 0.899);
+}
+
+.btn-success {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: #64c20d;
+    border-color: transparent;
+    box-shadow: 0 3px #999;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-success:hover {
+    background-color: #8fe142;
+    border-color: transparent;
+
+}
+
+.btn-success:active {
+    background-color: #8fe142;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.result {
+    margin: 30px;
+}
+
+.result h2 {
+    font-size: 1.7rem;
+    margin: 10px 0;
+}
+
+.result h3 {
+    font-size: 1.2rem;
+
+}
